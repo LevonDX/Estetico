@@ -22,6 +22,6 @@ namespace Estetico.Data.Entities
         public decimal Price { get; set; }
         public string Image { get; set; }
 
-        public virtual Address Address { get; set; }
+        public virtual Address? Address { get; set; }
     }
 }
