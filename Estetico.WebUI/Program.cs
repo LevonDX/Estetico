@@ -1,3 +1,4 @@
+using Estetico.Data;
 using Estetico.WebUI.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
