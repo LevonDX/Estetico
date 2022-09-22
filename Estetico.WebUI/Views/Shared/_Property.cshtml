@@ -22,7 +22,7 @@
             <!-- homes content -->
             <div class="homes-content">
                 <!-- homes address -->
-                <h3><a href="single-property-1.html">@Model.Name</a></h3>
+                <h3><a asp-controller="Estate" asp-action="SingleProperty" asp-route-ID=@Model.ID>@Model.Name</a></h3>
                 <p class="homes-address mb-3">
                     <a href="single-property-1.html">
                         <i class="fa fa-map-marker"></i><span>@Model.Address</span>

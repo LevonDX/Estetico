@@ -26,7 +26,7 @@ namespace Estetico.Data.Entities
         {
             get
             {
-                return Path.Combine("/property-images", ID + ".jpg");
+                return Path.Combine("property-images", ID + ".jpg");
             }
         }
 
